@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+ 
+  "name": "Make Mastodon Wider",
+  "version": "0.1",
+  "description": "Make Mastodon Wider",
+ 
+  "content_scripts": [{
+    "matches": ["https://mastodon.social/*"],
+    "css": ["bigmastodon.css"]
+  }]
+ 
+}
