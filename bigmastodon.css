@@ -4,11 +4,11 @@
     width: calc(100% - 650px);
 }
 
-.status {
+.column[aria-label="Home"] .status {
 	display : flex ;
 }
 
-.status__info {
+.column[aria-label="Home"] .status__info {
 	display : block ;
 	min-width : 250px ;
 	max-width : 250px ; 
@@ -17,38 +17,38 @@
 	align-items : flex-start !important ;
 }
 
-.status__content {
+.column[aria-label="Home"] .status__content {
 	flex-grow : 1 !important ; 
 }
 
-.status__content p {
+.column[aria-label="Home"] .status__content p {
 	margin-bottom : 10px ; 
 }
 
-.status__content__text p {
+.column[aria-label="Home"] .status__content__text p {
 	font-family: 'Andika', sans-serif;
 }
 
-.status__prepend {
+.column[aria-label="Home"] .status__prepend {
 	padding : 8px 16px !important ; 
 	font-size : 12px !important ; 
 	line-height : 1 !important ;
 }
 
-.status__action-bar {
+.column[aria-label="Home"] .status__action-bar {
 	gap : 10px !important ;
     margin-left : 15px ;
 }
 
-.status__info *, .status__info, .status__display-name strong, .status__prepend {
+.column[aria-label="Home"] .status__info *, .status__info, .status__display-name strong, .status__prepend {
     color: #999 !important;
 }
 
-strong.display-name__html {
+.column[aria-label="Home"] strong.display-name__html {
 	font-size : 1em !important ;
 	color : #333 !important ;
 }
 
-.status-card *, .status-card {
+.column[aria-label="Home"] .status-card *, .status-card {
     max-height : 150px !important ;
 }
