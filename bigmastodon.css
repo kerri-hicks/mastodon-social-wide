@@ -52,3 +52,7 @@
 .column[aria-label="Home"] .status-card *, .status-card {
     max-height : 150px !important ;
 }
+
+.status__wrapper-direct {
+    background-color: #ffd6dd59;
+}
