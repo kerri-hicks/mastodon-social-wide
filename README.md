@@ -1,5 +1,5 @@
 # mastodon-social-wide
-Make mastodon.social on the web look better in Chrome **IN LIGHT MODE**
+Make mastodon.social on the web look better in Chrome **IN LIGHT MODE, ADVANCED WEB MODE**
 
 To use this:
 * Download the directory, and in Chrome, go to chrome://extensions/
